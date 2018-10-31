@@ -49,3 +49,7 @@ app.get('/cities/:city', async (req, res) => {
 app.listen(PORT, () => console.log('Example app listening on port '+ PORT))
 
 
+function concatenateStrings(a, b){
+	return a+b
+}
+module.exports={conc: concatenateStrings}
