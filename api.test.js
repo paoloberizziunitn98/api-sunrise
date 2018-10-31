@@ -5,5 +5,5 @@ test('concat test', () => {
 });
 
 test('concat null', () => {
-	axpec(conc(null,null)).toBe(0);
+	expect(conc(null,null)).toBe(0);
 });
