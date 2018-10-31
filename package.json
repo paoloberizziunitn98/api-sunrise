@@ -1,0 +1,25 @@
+{
+  "name": "api-sunrise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "scripts": {
+    "start": "node api.js",	
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paoloberizziunitn98/api-sunrise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paoloberizziunitn98/api-sunrise/issues"
+  },
+  "homepage": "https://github.com/paoloberizziunitn98/api-sunrise#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "node-fetch": "^2.2.0"
+  }
+}
